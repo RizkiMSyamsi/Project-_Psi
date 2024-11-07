@@ -1,0 +1,46 @@
+:root,[data-bs-theme=light],[data-bs-theme=dark]{
+    --primary : #640460;
+    --secondary : #C9A1EF;
+    --bg : #E9DFF6;
+    --bs-primary: #640460 !important;
+}
+
+.main-section{
+    background-color: var(--bg);
+    min-height: 100vh;
+    height: 100%;
+}
+
+.bg-nav{
+    background-color: var(--secondary);
+}
+
+.btn-primary{
+    background-color: var(--primary) !important;
+    border: none;
+}
+
+.navbar-img{
+    width: auto;
+    height: 50px;
+}
+
+.main-headline{
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.font-paragraph{
+    color: var(--primary);
+}
+
+.bg-primary{
+    background-color: var(--primary);
+}
+
+.card-section{
+    height: 400px;
+    width: 100%;
+    background-color: var(--secondary);
+    color: var(--primary);
+}
